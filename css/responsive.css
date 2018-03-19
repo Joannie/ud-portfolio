@@ -1,0 +1,65 @@
+@media screen and (max-width: 677px){
+    header, hr, main, footer{
+        width: 100%;
+    }
+
+    header {
+        height: 180px;
+    }
+
+    #header_logo {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin: 5px 0 0;
+        padding: 0;
+    }
+
+    hr {
+        margin: 2px auto;
+    }
+
+    .header_title {
+        margin-right: 0.5em;
+        vertical-align: bottom;
+        text-align: right;  
+    }
+
+    .cards {
+        width: 100%;
+        margin: 3px;
+    }
+
+    img .profile {
+        display: none;
+    }
+
+    .msg{
+        width: 100%;
+    }
+    
+    .button {
+        width: 90%;
+
+    }
+
+}
+
+ 
+@media screen and (min-width: 678px) and (max-width: 1010px){
+    header, hr, main, footer{
+        width: 100%;
+    }
+
+    .header_title {
+        margin-right: 0.5em;
+        vertical-align: bottom;
+        text-align: right;  
+    }
+
+    hr {
+        margin: 2px auto;
+    }
+
+}
+
